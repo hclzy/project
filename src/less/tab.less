@@ -1,0 +1,155 @@
+.user_title {
+  font-size: 18px;
+  color: #87c4e9;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.detail_body {
+  width: 980px;
+  //height: 500px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 6px 0px
+  rgba(140, 140, 140, 0.5);
+  border-radius: 6px;
+  margin: auto;
+  padding: 20px 10px;
+  .detail_select {
+    padding-left: 10px;
+    &>div {
+      & > select {
+        width: 126px;
+        height: 30px;
+        background-color: #ffffff;
+        border-radius: 14px;
+        border: solid 1px #dddddd;
+        text-indent: 20px;
+      }
+      & > .ordernum {
+        width: 146px;
+        height: 30px;
+        background-color: #ffffff;
+        border-radius: 14px;
+        border: solid 1px #dddddd;
+        text-indent: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .ant-checkbox + span {
+        color: #87c4e9;
+      }
+      .putout {
+        color: #87c4e9;
+        margin-right: 10px;
+      }
+      &.select_date {
+        margin-top: 10px;
+        .select_btn {
+          display: inline-block;
+          margin-left: 10px;
+          button {
+            width: 80px;
+            height: 30px;
+            margin-left: 3px;
+            background-color: #ffffff;
+            border-radius: 14px;
+            border:1px solid #dddddd;
+            &.selected {
+              color: #ffffff;
+              background-color: #87c4e9;
+            }
+          }
+        }
+        .inquire {
+          float: right;
+          button {
+            width: 120px;
+            height: 30px;
+            background-image: linear-gradient(0deg,
+            #749ceb 0%,
+            #8bcde9 100%),
+            linear-gradient(
+                    #87c4e9,
+                    #87c4e9);
+            background-blend-mode: normal,
+            normal;
+            border-radius: 14px;
+            border:none;
+            margin-right: 10px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+  }
+  .detail_list {
+    padding-top: 20px;
+    position: relative;
+    .user_name {
+      color: #87c4e9;
+      span {
+        color: #ff9e9e;
+      }
+    }
+    //.detail_pagination {
+    //  position: absolute;
+    //  bottom: 23px;
+    //  right: 240px;
+    //  color: #7dc3e8;
+    //}
+  }
+  .data_body {
+    height: 646px;
+    margin-left: 20px;
+    font-size: 14px;
+    li {
+      margin: 20px 0;
+      color: #666666;
+      .data_title {
+        width: 120px;
+        float: left;
+        text-align: right;
+        .photo {
+          height: 60px;
+          line-height: 60px;
+        }
+      }
+      .data_data {
+        margin-left: 50px;
+        float: left;
+        .ant-upload.ant-upload-select-picture-card {
+          width: 60px;
+          height: 60px;
+          vertical-align: middle;
+          background-color: #f5f5f5;
+          border-radius: 50%;
+        }
+        img {
+          width: 60px;
+          height: 60px;
+          background-color: #f5f5f5;
+          vertical-align: middle;
+        }
+      }
+    }
+    .data_submit {
+      margin: 50px 0 0 50px;
+      button {
+        width: 200px;
+        height: 36px;
+        background-image: linear-gradient(0deg,
+        #8bcde9 0%,
+        #749ceb 100%),
+        linear-gradient(
+                #88c7e9,
+                #88c7e9);
+        background-blend-mode: normal,
+        normal;
+        border-radius: 18px;
+        border: none;
+        font-size: 20px;
+        color: #ffffff;
+      }
+    }
+  }
+}
